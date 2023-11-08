@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Name - Product Designer</title>
+    <style>
+        body, h1, p {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #121212;
+            color: #ffffff;
+            line-height: 1.6;
+        }
+
+        header {
+            background: #333;
+            padding: 10px 0;
+        }
+
+        nav ul {
+            list-style: none;
+            display: flex;
+            justify-content: center;
+        }
+
+        nav ul li {
+            margin: 0 20px;
+        }
+
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        .container {
+            max-width: 1170px;
+            margin: auto;
+            overflow: hidden;
+            padding: 0 20px;
+        }
+
+        .home-container {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 50px 0;
+        }
+
+        .info {
+            flex-basis: 50%;
+            /* Add any additional styling for your info here */
+        }
+
+        .profile-pic {
+            flex-basis: 50%;
+            text-align: right; /* Align the image to the right */
+        }
+
+        .profile-pic img {
+            max-width: 100%;
+            height: auto;
+            /* Add a border if needed */
+        }
+
+        footer {
+            background: #333;
+            color: #fff;
+            text-align: center;
+            padding: 30px 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <nav>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#experience">Experiences</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#pricing">Pricing</a></li>
+                    <li><a href="#blog">Blog</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <section id="home">
+            <div class="container home-container">
+                <div class="info">
+                    <h1>Hello, I'm <span class="name">[Your Name]</span></h1>
+                    <p>Product Designer</p>
+                    <p><a href="mailto:your.email@example.com">your.email@example.com</a></p>
+                    <p>+1 234 567 8900</p>
+                    <p>1234 Street, City, Country</p>
+                    <!-- Social Media Links -->
+                </div>
+                <div class="profile-pic">
+                    <!-- Replace 'path_to_your_image.jpg' with the actual path to your image -->
+                    <img src="path_to_your_image.jpg" alt="[Your Name]">
+                </div>
+            </div>
+        </section>
+        <!-- Additional sections for About, Skills, etc. -->
+    </main>
+    <footer>
+        <div class="container">
+            &copy; 2023 [Your Name]
+        </div>
+    </footer>
+</body>
+</html>

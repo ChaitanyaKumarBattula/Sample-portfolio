@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chaitanya Kumar Battula - Data Analyst</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.css">
+    <style>
+        body, h1, p {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #121212;
+            color: #ffffff;
+            line-height: 1.6;
+        }
+
+        header {
+            background: #333;
+            padding: 10px 0;
+        }
+
+        nav ul {
+            list-style: none;
+            display: flex;
+            justify-content: center;
+        }
+
+        nav ul li {
+            margin: 0 20px;
+        }
+
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        .container {
+            max-width: 1170px;
+            margin: auto;
+            overflow: hidden;
+            padding: 0 20px;
+        }
+
+        .home-container {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 50px 0;
+        }
+
+        .info {
+            flex-basis: 50%;
+            /* Additional styling for your info here */
+        }
+
+        .info i {
+            margin-right: 8px; /* Space between icon and text */
+            color: #ffffff; /* Icon color */
+        }
+
+        .profile-pic {
+            flex-basis: 50%;
+            text-align: right; /* Align the image to the right */
+        }
+
+        .profile-pic img {
+	    max-width: 100%;
+	    height: auto;
+	    border-radius: 100%; /* This will make the image circular */
+	    border: 3px solid #ffffff; /* Example border: white, 3 pixels thick */
+	    /* If the image is not a square, you may also need to set a specific width and height */
+    	    width: 400px; /* Example width */
+    	    height: 400px; /* Example height, make it the same as width for a perfect circle */
+    	    object-fit: cover; /* This will cover the area without stretching the image */
+	    box-shadow: 0 8px 15px rgba(0,0,0,0.6); /* Optional: Adds a shadow for a 3D effect */
+        }
+	.icon-link {
+    		margin-right: 10px; /* Adjust the value to increase or decrease the space between icons */
+    		text-decoration: none; /* Removes the underline from the links */
+    		color: inherit; /* The icon color will be the same as the text color */
+	}
+	.icon-link:hover {
+    		color: #ccc; /* Color when the mouse hovers over the icon */
+	}
+	.greeting {
+		display: inline-block; /* Makes the background only as wide as the content */
+    		background-color: #21C87A; /* Green background */
+    		color: #ffffff; /* White text */
+    		padding: 5px 10px; /* Adjust the padding to control the size of the box */
+    		margin-bottom: 5px; /* Space between greeting and name */
+    		border-radius: 5px; /* Optional: adds rounded corners to the box */
+        }
+	.info h1 {
+    		font-size: 2.5em; /* Makes the font size larger */
+    		font-weight: bold; /* Makes the font weight bold */
+    		margin-bottom: 10px; /* Space below the name */
+	}
+	.info .title {
+    		font-size: 1.8em; /* 60% of the size of the name if the name is 3em */
+    		font-weight: bold; /* Makes the title bold */
+    		color: #FFFFFF; /* Assuming white color for the title */
+	}
+        footer {
+            background: #333;
+            color: #fff;
+            text-align: center;
+            padding: 30px 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="certification.html">Certifications</a></li>
+                    <li><a href="Project.html">Projects</a></li>
+		    <li><a href="Skill.html">Skills</a></li>
+		    <li><a href="experience.html">Experience</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <section id="home">
+            <div class="container home-container">
+                <div class="info">
+		    <p class="greeting">Hello I'm</p>
+                    <h1>Chaitanya Kumar Battula</h1>
+                    <p class="title">Data Analyst</p>
+		    <p style="margin-top: 30px;"></p>
+                    <p><i class="fas fa-envelope"></i> <a href="mailto:Chaitanyakrb@gmail.com">Chaitanyakrb@gmail.com</a></p>
+                    <p><i class="fas fa-phone"></i> +1 (774) 251 - 8434</p>
+                    <p><i class="fas fa-map-marker-alt"></i> 3560 academic place, Fort Wayne, USA</p>
+		    <p>
+			<a href="https://www.facebook.com/profile.php?id=100010102629314&mibextid=ZbWKwL" target="_blank" class="icon-link">
+			<i class="fab fa-facebook-f contact-icon"></i>
+			</a>
+			<a href="https://www.instagram.com/chaitanya_kumar_battula?igshid=OGQ5ZDc2ODk2ZA==" target="_blank" class="icon-link">
+			<i class="fab fa-instagram contact-icon"></i>
+			</a>
+			<a href="https://www.github.com/ChaitanyaKumarBattula" target="_blank" class="icon-link">
+    			<i class="fab fa-github contact-icon"></i>
+			</a>
+    			<a href="https://www.linkedin.com/in/chaitanya-kumar-battula-116404255" target="_blank" class="icon-link">
+        		<i class="fab fa-linkedin contact-icon"></i> <!-- Using general LinkedIn icon class -->
+    			</a>
+			<i class="fab fa-twitter contact-icon"></i>
+                     </p>
+                </div>
+
+                <div class="profile-pic">
+                    <!-- Replace 't1.jpeg' with the actual path to your image -->
+                    <img src="t1.jpeg" alt="Chaitanya Kumar Battula">
+                </div>
+            </div>
+        </section>
+        <!-- Additional sections for About, Skills, etc. -->
+    </main>
+    <footer>
+        <div class="container">
+            &copy; 2023 Chaitanya Kumar Battula
+        </div>
+    </footer>
+</body>
+</html>

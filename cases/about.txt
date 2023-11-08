@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Me</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        :root {
+            --dark-bg: #121212;
+            --text-light: #fff;
+            --primary-color: #21C87A;
+        }
+
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+            background-color: var(--dark-bg);
+            color: var(--text-light);
+        }
+
+        .container {
+            max-width: 1170px;
+            margin: auto;
+            padding: 20px;
+        }
+
+        .section-title {
+            text-align: center;
+            margin-bottom: 2rem;
+            font-size: 2.5rem;
+        }
+
+        .about-content {
+            line-height: 1.6;
+            font-size: 1.1rem;
+        }
+
+        .about-content p {
+            margin-bottom: 1rem;
+        }
+
+        /* Add additional styling as needed */
+    </style>
+</head>
+<body>
+    <header>
+        <!-- Navigation bar -->
+        <!-- Place your navigation bar here -->
+    </header>
+
+    <main class="container">
+        <section id="About">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-content">
+                <p>Hello! I'm [Your Name], a [Your Profession] with a passion for [Your Interests].</p>
+                <p>With a background in [Your Background], I've developed a robust set of skills that include [List a few key skills].</p>
+                <p>In my previous roles as [Previous Roles], I have [Explain your experience and achievements].</p>
+                <p>When I'm not working, I enjoy [Your Hobbies], and [Other Personal Interests].</p>
+                <p>Feel free to reach out if you're interested in working together or if you just want to connect!</p>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <!-- Footer content here -->
+    </footer>
+</body>
+</html>

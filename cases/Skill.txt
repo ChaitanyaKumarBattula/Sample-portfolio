@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chaitanya Kumar Battula - Skills</title>
+    <link rel="stylesheet" href="styles.css">
+    <!-- Add the link to your icon library below, like Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <style>body, h1, h2, h3, p, ul, li {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    max-width: 1170px;
+    margin: auto;
+    padding: 20px;
+}
+
+.section-title {
+    text-align: center;
+    margin-bottom: 2rem;
+    color: #fff;
+    font-size: 2.5rem;
+}
+
+.skills-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.skill-category {
+    flex-basis: 45%;
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+}
+
+.skill-category h3 {
+    font-size: 1.8rem;
+    margin-bottom: 1rem;
+    display: flex;
+    align-items: center;
+}
+
+.skill-category h3 i {
+    margin-right: 10px;
+    color: var(--primary-color); /* Define this color in your root CSS */
+}
+
+.skill-list {
+    list-style: none;
+    font-size: 1.2rem;
+    line-height: 2;
+}
+.skill-bars {
+    margin-top: 30px;
+}
+
+.bar {
+    margin-bottom: 20px;
+}
+
+.bar .info {
+    margin-bottom: 5px;
+}
+
+.bar .info span {
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: #fff;
+}
+
+.bar .progress-line {
+    position: relative;
+    width: 100%;
+    height: 10px;
+    background: #f0f0f0;
+    border-radius: 5px;
+}
+
+.bar .progress-line span {
+    position: absolute;
+    height: 100%;
+    border-radius: 5px;
+    transform: scaleX(0);
+    transform-origin: left;
+    transition: transform 2s ease-out;
+}
+
+/* Skill specific styles */
+.progress-line.python span {
+    width: 90%; /* Adjust the width based on your proficiency */
+    background: #4caf50;
+}
+
+.progress-line.machine-learning span {
+    width: 80%; /* Adjust the width based on your proficiency */
+    background: #2196f3;
+}
+
+/* Add more styles for different skills */
+
+/* Animation */
+.bar:hover .progress-line span {
+    transform: scaleX(1);
+}
+
+
+.skill-list li::before {
+    content: '▹';
+    color: var(--primary-color); /* Define this color in your root CSS */
+    margin-right: 10px;
+}
+/* Skills section styles */
+.skills-section {
+    padding: 2rem 0;
+}
+
+.section-title {
+    text-align: center;
+    margin-bottom: 1rem;
+    color: #fff;
+}
+
+.skill-bars {
+    margin-top: 30px;
+}
+
+.bar {
+    margin-bottom: 20px;
+}
+
+.bar .info {
+    margin-bottom: 5px;
+}
+
+.bar .info span {
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: #fff;
+}
+
+.bar .progress-line {
+    position: relative;
+    width: 100%;
+    height: 20px;
+    background: #f0f0f0;
+    border-radius: 5px;
+}
+
+.bar .progress-line span {
+    position: absolute;
+    height: 100%;
+    border-radius: 5px;
+    background: #4caf50;
+    transform: scaleX(0);
+    transform-origin: left;
+    transition: transform 2s ease-out;
+}
+
+/* Add more styles for different skills as needed */
+/* ... other styles ... */
+
+
+@media (max-width: 768px) {
+    .skills-container {
+        flex-direction: column;
+    }
+
+    .skill-category {
+        flex-basis: 100%;
+    }
+document.addEventListener('DOMContentLoaded', function() {
+    // Select all the span elements within the skill bars
+    const skillSpans = document.querySelectorAll('.skill-bars .progress-line span');
+    
+    // Loop through the spans and set the width to simulate a loading effect
+    skillSpans.forEach(span => {
+        const width = span.getAttribute('data-width');
+        span.style.width = width + '%';
+        span.style.transform = 'scaleX(1)';
+    });
+});
+    
+}
+</style>
+</head>
+<body>
+    <header>
+        <!-- Navigation bar here -->
+    </header>
+
+    <main class="container">
+        <section id="Skills">
+            <h2 class="section-title">Professional Skills</h2>
+            <div class="skills-container">
+                
+                <!-- Skill Category -->
+                <div class="skill-category">
+                    <h3><i class="fas fa-code"></i> Programming Languages</h3>
+                    <ul class="skill-list">
+                        <li>Python</li>
+                        <li>Julia</li>
+                        <li>R</li>
+                        <!-- Add more as needed -->
+                    </ul>
+                </div>
+
+                <!-- Skill Category -->
+                <div class="skill-category">
+                    <h3><i class="fas fa-database"></i> Databases</h3>
+                    <ul class="skill-list">
+                        <li>PostgreSQL</li>
+                        <li>MySQL</li>
+                        <!-- Add more as needed -->
+                    </ul>
+                </div>
+
+                <!-- Skill Category -->
+                <div class="skill-category">
+                    <h3><i class="fas fa-brain"></i> Machine Learning</h3>
+                    <ul class="skill-list">
+                        <li>Deep Learning</li>
+                        <li>Computer Vision</li>
+                        <!-- Add more as needed -->
+                    </ul>
+                </div>
+
+                <!-- Skill Category -->
+                <div class="skill-category">
+                    <h3><i class="fas fa-cloud"></i> Cloud Computing</h3>
+                    <ul class="skill-list">
+                        <li>AWS</li>
+                        <li>Azure</li>
+                        <!-- Add more as needed -->
+                    </ul>
+                </div>
+
+                <!-- Add more skill categories as needed -->
+            </div>
+        </section>
+        <section id="Skills" class="container skills-section">
+    <h2 class="section-title">Professional Skills</h2>
+    <div class="skill-bars">
+        <!-- Skill Bar for Python -->
+        <div class="bar">
+            <div class="info">
+                <span>Python</span>
+            </div>
+            <div class="progress-line python"><span></span></div>
+        </div>
+        <!-- Repeat for other skills -->
+        <!-- ... other skills ... -->
+    </div>
+</section>
+    </main>
+
+    <footer>
+        <!-- Footer content here -->
+    </footer>
+
+    <!-- External JS scripts -->
+</body>
+</html>

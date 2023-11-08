@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Me</title>
+    <link rel="stylesheet" href="styles.css">
+    <!-- Include other styles or links -->
+<style>
+        body, h1, p {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #121212;
+            color: #ffffff;
+            line-height: 1.6;
+        }
+
+        header {
+            background: #333;
+            padding: 10px 0;
+        }
+
+        nav ul {
+            list-style: none;
+            display: flex;
+            justify-content: center;
+        }
+
+        nav ul li {
+            margin: 0 20px;
+        }
+
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        .container {
+            max-width: 1170px;
+            margin: auto;
+            overflow: hidden;
+            padding: 0 20px;
+        }
+
+        .home-container {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 50px 0;
+        }
+
+        .info {
+            flex-basis: 50%;
+            /* Additional styling for your info here */
+        }
+
+        .info i {
+            margin-right: 8px; /* Space between icon and text */
+            color: #ffffff; /* Icon color */
+        }
+
+        .profile-pic {
+            flex-basis: 50%;
+            text-align: right; /* Align the image to the right */
+        }
+
+        .profile-pic img {
+	    max-width: 100%;
+	    height: auto;
+	    border-radius: 100%; /* This will make the image circular */
+	    border: 3px solid #ffffff; /* Example border: white, 3 pixels thick */
+	    /* If the image is not a square, you may also need to set a specific width and height */
+    	    width: 400px; /* Example width */
+    	    height: 400px; /* Example height, make it the same as width for a perfect circle */
+    	    object-fit: cover; /* This will cover the area without stretching the image */
+	    box-shadow: 0 8px 15px rgba(0,0,0,0.6); /* Optional: Adds a shadow for a 3D effect */
+        }
+	.icon-link {
+    		margin-right: 10px; /* Adjust the value to increase or decrease the space between icons */
+    		text-decoration: none; /* Removes the underline from the links */
+    		color: inherit; /* The icon color will be the same as the text color */
+	}
+	.icon-link:hover {
+    		color: #ccc; /* Color when the mouse hovers over the icon */
+	}
+	.greeting {
+		display: inline-block; /* Makes the background only as wide as the content */
+    		background-color: #21C87A; /* Green background */
+    		color: #ffffff; /* White text */
+    		padding: 5px 10px; /* Adjust the padding to control the size of the box */
+    		margin-bottom: 5px; /* Space between greeting and name */
+    		border-radius: 5px; /* Optional: adds rounded corners to the box */
+        }
+	.info h1 {
+    		font-size: 2.5em; /* Makes the font size larger */
+    		font-weight: bold; /* Makes the font weight bold */
+    		margin-bottom: 10px; /* Space below the name */
+	}
+	.info .title {
+    		font-size: 1.8em; /* 60% of the size of the name if the name is 3em */
+    		font-weight: bold; /* Makes the title bold */
+    		color: #FFFFFF; /* Assuming white color for the title */
+	}
+	
+	.education-section h4 {
+    color: var(--primary-color); /* Highlights the degree titles */
+    margin-top: 0.5em; /* Adds a bit of space above the degree title */
+}
+
+.education-section p {
+    margin-left: 1em; /* Indents paragraphs for a cleaner look */
+}
+
+	
+        footer {
+            background: #333;
+            color: #fff;
+            text-align: center;
+            padding: 30px 0;
+        }
+
+.section-break {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 30px 0;
+    margin-top: 50px; /* Add space above the section break */
+}
+
+.certificate-container {
+    margin-top: 10px; /* Spacing above the certificate image */
+    text-align: center; /* Center the contents */
+    padding: 10px; /* Padding around the container */
+
+}
+
+.certificate-image {
+    width: 300px; /* Adjust width as needed */
+    height: auto; /* Maintain aspect ratio */
+    border: 1px solid #fff; /* White border around the image */
+    border-radius: 5px; /* Rounded corners for the image */
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2); /* Shadow for depth */
+    margin: 10px 0; /* Margin for spacing around the image */
+}
+
+.view-pdf {
+    display: inline-block; /* Inline block for the link */
+    margin-top: 10px; /* Spacing above the link */
+    padding: 8px 15px; /* Padding inside the link */
+    background-color: #21C87A; /* Background color */
+    color: #fff; /* Text color */
+    text-decoration: none; /* No underline */
+    border-radius: 5px; /* Rounded corners for the link */
+    box-shadow: 0 2px 4px rgba(0,0,0,0.2); /* Shadow for depth */
+    font-weight: bold; /* Bold font for the text */
+}
+
+.view-pdf:hover {
+    background-color: #1a9e6f; /* Darker background on hover */
+}
+
+
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="certification.html">Certifications</a></li>
+                    <li><a href="Project.html">Projects</a></li>
+		    <li><a href="Skill.html">Skills</a></li>
+		    <li><a href="experience.html">Experience</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main class="container">
+        <section id="About">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-content">
+                <p>Welcome! My name is Chaitanya Kumar Battula , and I am a burgeoning computer scientist with a fervor for melding analytical rigor with creative problem-solving. My academic journey has taken me through prestigious institutions like Purdue University and Caltech, where I've delved deeply into the realms of AI, Machine Learning, and Cloud Computing.</p>
+                <p>My education has been a blend of cutting-edge technology and practical financial acumen, highlighted by my specialization in Algorithmic Trading at the Indian Institute of Quantitative Finance. As a dedicated lifelong learner, I thrive on staying abreast of the latest technological advancements and industry trends.</p>
+                <p>My goal is to leverage my diverse skill set in computer science to innovate and drive progress in technology and finance. Whether it's through developing intelligent systems or optimizing financial strategies, I am always eager to tackle complex challenges and contribute to impactful projects.</p>
+            </div>
+	    <div class="section-break">
+	    </div>
+            <!-- Education Section -->
+            <div class="education-section">
+	
+                <h2>Education</h2>
+
+                <ul>
+                    <li>
+                        <h4>Master of Science in Computer Science</h4>
+                        <p>Purdue University, Expected 08/2024</p>
+			<p>Courses: OS, Data Analytics using R, Database design, NLP, HCI, Softawre Engineering, Algorithums,Machine Learning,Quantum Computation. </p>
+                    </li>
+                    <li>
+                        <h4>PGP in Algorithmic Trading</h4>
+                        <p>Indian Institute Of Quantitative Finance, 10/2023</p>
+			<p>Courses: Technical Analysis,  Algorithmic System Design and Implementation, Machine Learning and Deep Learning for Quantitative Trading. </p>
+                    </li>
+                    <li>
+                        <h4>PGP in Cloud Computing</h4>
+                        <p>Caltech, 11/2022</p>
+			<p>Courses: AWS Solutions Architect SAA C02, AWS Database Migration, Microsoft Certified Azure Administrator: AZ:104, Designing Microsoft Azure Infrastructure Solutions AZ:305.</p>
+			<div class="certificate-container">
+            		<img src="C:\Users\bchai\Desktop\Web page\Home\Screenshot 2023-11-05 180827.png" alt="MSCS Certificate" class="certificate-image">
+           		<a href="C:\Users\bchai\Desktop\Web page\Home\Battula,  Chaitanya Kumar-Certificate.pdf" target="_blank" class="view-pdf">View Certificate</a>
+			</div>
+                    </li>
+                    <li>
+                        <h4>PGP in AI & ML</h4>
+                        <p>Purdue University, 09/2021</p>
+			<p>Courses: Machine Learning, Deep Learning with tensorflow, Advanced Deep Learning & Computer vision, NLP & Speech Recognition, Reinforcement Learning.</p>
+			<div class="certificate-container">
+            		<img src="C:\Users\bchai\Desktop\Web page\Home\Screenshot 2023-11-05 182920.png"alt="MSCS Certificate" class="certificate-image">
+           		<a href="C:\Users\bchai\Desktop\Web page\Home\PGP AI-ML Purdue Certificate (2).pdf" target="_blank" class="view-pdf">View Certificate</a>
+        </div>
+                    </li>
+                    <li>
+                        <h4>Bachelor of Engineering in Computer Science</h4>
+                        <p>JSS Science & Technology University, 06/2021</p>
+			<p></p>
+                    </li>
+                </ul>
+            </div>
+	    	    <div class="section-break">
+	    </div>
+	<div class="education-section">
+	
+                <h2>Hobby</h2>
+
+       </div>
+</div>
+	    	    <div class="section-break">
+	    </div>
+	<div class="education-section">
+	
+                <h2>Pets</h2>
+
+       </div>
+
+        </section>
+    </main>
+
+    <footer>
+        <!-- Footer content here -->
+    </footer>
+</body>
+</html>

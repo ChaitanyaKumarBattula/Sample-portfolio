@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chaitanya Kumar Battula - Projects</title>
+    <link rel="stylesheet" href="styles.css"> <!-- Link to your CSS file -->
+    <style>
+        /* General styles */
+        body, h1, h2, h3, p, a {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+            color: white;
+        }
+
+        /* Header and Navigation styles */
+        header {
+            background-color: #333;
+            color: white;
+            padding: 1rem 0;
+        }
+
+        nav ul {
+            list-style: none;
+            display: flex;
+            justify-content: center;
+        }
+
+        nav ul li {
+            margin: 0 15px;
+        }
+
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        /* Main content */
+        main {
+            background-color: #121212;
+            padding: 2rem;
+        }
+
+        .container {
+            max-width: 1170px;
+            margin: auto;
+        }
+
+        /* Project styles */
+        .domain {
+            margin-bottom: 2rem;
+        }
+
+        .domain > h2 {
+            font-size: 2rem;
+            margin-bottom: 1rem;
+        }
+
+        .subdomain {
+            margin-left: 1rem;
+        }
+
+        .subdomain > h3 {
+            font-size: 1.5rem;
+            margin-bottom: 0.5rem;
+        }
+
+        .project {
+            margin-left: 2rem;
+            margin-bottom: 0.5rem;
+        }
+
+        /* Footer styles */
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 1rem 0;
+        }
+
+        /* Responsive design */
+        @media (max-width: 768px) {
+            /* Adjustments for smaller screens */
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <!-- Navigation bar -->
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <!-- Add other navigation links if necessary -->
+            </ul>
+        </nav>
+    </header>
+    
+    <main>
+        <section class="container">
+            <h1>Projects</h1>
+            <!-- Domain 1 -->
+            <div class="domain">
+                <h2>Domain 1</h2>
+                <!-- Subdomain 1 -->
+                <div class="subdomain">
+                    <h3>Subdomain 1</h3>
+                    <div class="project">
+                        <p>Project 1</p>
+                        <p>Description for Project 1</p>
+                    </div>
+                    <div class="project">
+                        <p>Project 2</p>
+                        <p>Description for Project 2</p>
+                    </div>
+                </div>
+                <!-- Subdomain 2 -->
+                <div class="subdomain">
+                    <h3>Subdomain 2</h3>
+                    <div class="project">
+                        <p>Project 3</p>
+                        <p>Description for Project 3</p>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Domain 2 -->
+            <!-- Repeat the structure for Domain 2, 3, 4, etc. -->
+        </section>
+    </main>
+    
+    <footer>
+        <!-- Footer content -->
+        <p>&copy; 2023 Chaitanya Kumar Battula</p>
+    </footer>
+</body>
+</html>

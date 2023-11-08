@@ -1,0 +1,448 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chaitanya Kumar Battula - Certifications</title>
+    <link rel="stylesheet" href="styles.css"> <!-- Link to your CSS file -->
+    <style>/* General styles */
+
+	body, h1, h2, h3, p, a {
+    		margin: 0;
+    		padding: 0;
+    		font-family: Arial, sans-serif;
+	}
+
+	/* Header and Navigation styles */
+	header {
+    	background-color: #333;
+    	color: white;
+    	padding: 1rem 0;
+	}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Main content and certifications grid */
+main {
+    background-color: #121212;
+    color: white;
+    padding: 2rem;
+}
+
+.container {
+    max-width: 1170px;
+    margin: auto;
+}
+
+.certifications-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    justify-content: center;
+}
+
+.certification-card {
+    background-color: #1C1C1C;
+    border-radius: 5px;
+    padding: 1rem;
+    width: 300px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.5);
+    margin-bottom: 1rem;
+}
+
+.certification-logo {
+    width: 100px;
+    height: auto;
+    margin-bottom: 0.5rem;
+}
+
+.certification-details h3 {
+    font-size: 1.2rem;
+    margin-bottom: 0.5rem;
+}
+
+.certification-details p {
+    font-size: 0.9rem;
+    margin-bottom: 0.5rem;
+}
+
+.certification-verify {
+    background-color: #21C87A;
+    color: white;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    text-decoration: none;
+    display: block; /* Make link a block element to center it */
+    width: fit-content;
+    margin: auto;
+    text-align: center;
+}
+
+.certification-verify:hover {
+    background-color: #19a966;
+}
+
+
+
+/* Add this to your styles.css file */
+h1, h2, h3 {
+    color: #ffffff; /* Changes color to white */
+}
+
+a {
+    text-decoration: none; /* Removes underline */
+    color: #ffffff; /* Changes link color to white */
+}
+
+a:hover {
+    color: #ccc; /* Color when the mouse hovers over the link */
+}
+
+a:visited {
+    color: #ffffff; /* Changes visited link color to white */
+}
+
+.certification-verify:hover {
+    background-color: #19a966; /* Changes background color on hover */
+    text-decoration: none; /* Ensures no underline on hover */
+}
+
+/* Continue with the rest of your existing CSS */
+
+/* ... other styles ... */
+
+.section-title {
+    text-align: left;
+    margin-bottom: 2rem; /* Adjust the space below the section title */
+    color: #fff; /* If you want to ensure the title is white */
+    font-size: 2rem; /* Adjust the font size as needed */
+}
+
+.intro-text {
+    text-align: center;
+    margin-bottom: 2rem; /* Space between the intro text and the certification cards */
+    color: #ccc; /* Lighter text color for the intro (optional) */
+    max-width: 800px; /* Max width of the text to maintain readability */
+    margin-left: auto; /* Center the intro text block horizontally */
+    margin-right: auto;
+    font-size: 1.2rem; /* Adjust the font size as needed */
+}
+
+/* ... rest of your styles ... */
+
+/* ... other styles ... */
+
+.category-title {
+    text-align: left;
+    color: #ffffff; /* White color */
+    margin: 1rem 0; /* Space above and below the category title */
+    font-size: 1.5rem; /* Adjust the size as needed */
+}
+
+/* Adjust the gap in the certifications grid if needed */
+.certifications-grid {
+    gap: 2rem;
+}
+
+/* ... rest of your styles ... */
+
+/* Footer styles */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1rem 0;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+    .certification-card {
+        width: 100%;
+    }
+</style>
+</head>
+<body>
+    <header>
+        <!-- Navigation bar -->
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</li>
+                <!-- Add other navigation links if necessary -->
+            </ul>
+        </nav>
+    </header>
+    
+    <main>
+        <!-- Certifications Section -->
+        <section id="Certifications" class="container">
+            <h2 class="section-title">Certifications</h2>
+            <p class="intro-text">
+            Here is a list of my professional certifications that showcase my skills and the knowledge I've acquired in various domains(The total number of certificates  is 19). Click on the verify links to view the certificates.
+            </p>
+            <div class="certifications-grid">
+                <!-- Certification Card -->
+
+                <div class="certification-card">
+		<h3 class="category-title">Coursera</h3>
+                    <img src="C:\Users\bchai\Desktop\Web page\Home\4.png" alt="Coursera Logo" class="certification-logo">
+		    <img src="C:\Users\bchai\Desktop\Web page\Home\5.png" alt="IBM Logo" class="certification-logo">
+                    <div class="certification-details">
+                        <h3>IBM - Advanced Machine Learning and Signal Processing</h3>
+                        <p>Issued by Coursera - Aug 2023</p>
+                        <p>Skills: Signal Transformations: Fourier, Hilbert , Laplace , Z-Transforms · Digital Signal Feature extraction, Signal classification with ML Models</p>
+                        <a href="https://www.coursera.org/verify/C2CAF52J7PJ6" target="_blank" class="certification-verify">Verify</a>
+                    </div>
+                </div>
+
+                <!-- Repeat for each certification -->
+		<div class="certification-card">
+                    <img src="C:\Users\bchai\Desktop\Web page\Home\4.png" alt="Coursera Logo" class="certification-logo">
+		    <img src="C:\Users\bchai\Desktop\Web page\Home\6.png" alt="Logo" class="certification-logo">
+                    <div class="certification-details">
+                        <h3>Julia Scientific Programming</h3>
+                        <p>Issued by Coursera - August 16, 2023</p>
+                        <p>Skills: Data structures, ML Model building</p>
+                        <a href="https://www.coursera.org/verify/HG39YEVK7M64" target="_blank" class="certification-verify">Verify</a>
+                    </div>
+                </div>
+		
+		<!-- Repeat for each certification -->
+		<div class="certification-card">
+                    <img src="C:\Users\bchai\Desktop\Web page\Home\7.jpg" alt="Simple learn Logo" class="certification-logo">
+		    <div class="certification-details">
+                        <h3>Cloud- AWS Database Migration</h3>
+                        <p>Issued by Simplilearn - November, 2022</p>
+                        <p>Skills: Various AWS DB services, AWS SCT, AWS KMS, SSL Protection for in-flight data.</p>
+                        <a href="https://certificates.simplicdn.net/share/thumb_3935189.png" target="_blank" class="certification-verify" class="certification-verify">Verify</a>
+                    </div>
+                </div>
+
+		<!-- Certification Card for Designing Microsoft Azure Infrastructure Solutions AZ:305 -->
+		<div class="certification-card">
+    		  <img src="C:\Users\bchai\Desktop\Web page\Home\7.jpg" alt="Simplilearn Logo" class="certification-logo">
+    			<div class="certification-details">
+        		<h3>Designing Microsoft Azure Infrastructure Solutions AZ:305</h3>
+        		<p>Issued by Simplilearn - Nov 2022</p>
+        		<p>Skills: Deal with 15 aspects of Azure infrastructure from authentication to cost optimization.</p>
+        		<a href="https://certificates.simplicdn.net/share/thumb_3933529.png" target="_blank" class="certification-verify">Verify</a>
+			</div>
+		</div>
+
+		
+		
+		<!-- Certification Card for Cloud- Google Cloud Platform Architect -->
+		<div class="certification-card">
+    		  <img src="C:\Users\bchai\Desktop\Web page\Home\7.jpg" alt="Simplilearn Logo" class="certification-logo">
+    			<div class="certification-details">
+        		<h3>Google Cloud Platform Architect</h3>
+        		<p>Issued by Simplilearn - Nov 2022</p>
+        		
+        		<a href="https://certificates.simplicdn.net/share/thumb_3935609.png" target="_blank" class="certification-verify">Verify</a>
+			</div>
+		</div>
+		
+		
+		
+		<!-- Certification Card for Cloud- Microsoft Azure FundamentalsCloud -->
+		<div class="certification-card">
+    		  <img src="C:\Users\bchai\Desktop\Web page\Home\7.jpg" alt="Simplilearn Logo" class="certification-logo">
+    			<div class="certification-details">
+        		<h3>Microsoft Azure Fundamentals Cloud</h3>
+        		<p>Issued by Simplilearn - Sep 2022</p>
+        		
+        		<a href="https://certificates.simplicdn.net/share/thumb_3759755.png" target="_blank" class="certification-verify">Verify</a>
+			</div>
+		</div>
+
+		
+		
+		
+		<!-- Certification Card for Microsoft Azure Administrator: AZ:104 -->
+		<div class="certification-card">
+    		  <img src="C:\Users\bchai\Desktop\Web page\Home\7.jpg" alt="Simplilearn Logo" class="certification-logo">
+    			<div class="certification-details">
+        		<h3>Microsoft Certified Azure Administrator: AZ:104</h3>
+        		<p>Issued by Simplilearn - Sep 2022</p>
+        		<p>Skills: Manage Identities and storage, Configure & manage Virtual networks, Backup.</p>
+        		<a href="https://certificates.simplicdn.net/share/thumb_3792114.png" target="_blank" class="certification-verify">Verify</a>
+			</div>
+		</div>
+		
+		
+		<!-- Certification Card for AWS Solutions Architect SAA C02 -->
+		<div class="certification-card">
+    		  <img src="C:\Users\bchai\Desktop\Web page\Home\7.jpg" alt="Simplilearn Logo" class="certification-logo">
+    			<div class="certification-details">
+        		<h3>AWS Solutions Architect SAA C02</h3>
+        		<p>Issued by Simplilearn - Aug 2021</p>
+        		<p>Skills: EC2, Storage, VPC, Databases, Route, IAM & Security(MFA, SSO), Serverless services.</p>
+        		<a href="https://certificates.simplicdn.net/share/thumb_3673738.png" target="_blank" class="certification-verify">Verify</a>
+			</div>
+		</div>
+		
+		
+		
+		<!-- Certification Card for AI ML- Reinforcement Learning -->
+		<div class="certification-card">
+    		  <img src="C:\Users\bchai\Desktop\Web page\Home\7.jpg" alt="Simplilearn Logo" class="certification-logo">
+    			<div class="certification-details">
+        		<h3>Reinforcement Learning</h3>
+        		<p>Issued by Simplilearn - Sep 2021</p>
+        		<p>Skills: MDP, Dynamic programming, Deep Reinforcement Learning.</p>
+        		<a href="https://certificates.simplicdn.net/share/thumb_2850599.png" target="_blank" class="certification-verify">Verify</a>
+			</div>
+		</div>
+		
+		
+		<!-- Certification Card for AI ML- IBM Watson For Chatbots -->
+		<div class="certification-card">
+    		  <img src="C:\Users\bchai\Desktop\Web page\Home\7.jpg" alt="Simplilearn Logo" class="certification-logo">
+    			<div class="certification-details">
+        		<h3>IBM Watson For Chatbots</h3>
+        		<p>Issued by Simplilearn - Jul 2021</p>
+        		
+        		<a href="https://certificates.simplicdn.net/share/thumb_2706773.png" target="_blank" class="certification-verify">Verify</a>
+			</div>
+		</div>
+		
+				
+		<!-- Certification Card for AI ML- Machine Learning With R -->
+		<div class="certification-card">
+    		  <img src="C:\Users\bchai\Desktop\Web page\Home\7.jpg" alt="Simplilearn Logo" class="certification-logo">
+    			<div class="certification-details">
+        		<h3>Machine Learning With R</h3>
+        		<p>Issued by Simplilearn - Jul 2021</p>
+        		<p>Skills: Build, Optimize and Deploy ML Models in R.</p>
+        		<a href="https://certificates.simplicdn.net/share/thumb_2691826.png" target="_blank" class="certification-verify">Verify</a>
+			</div>
+		</div>
+		
+		
+		
+		<!-- Certification Card for AI ML- Natural Language Processing  -->
+		<div class="certification-card">
+    		  <img src="C:\Users\bchai\Desktop\Web page\Home\7.jpg" alt="Simplilearn Logo" class="certification-logo">
+    			<div class="certification-details">
+        		<h3>Natural Language Processing</h3>
+        		<p>Issued by Simplilearn - Jul 2021</p>
+        		<p>Skills:Speech Recognition, Speech to Text & Text to Speech , Voice Asistant Devices · Feature Engineering on Text Data, NLP With ML and Deep Learning, Natural Language Generation.</p>
+        		<a href="https://certificates.simplicdn.net/share/thumb_2743660.png" target="_blank" class="certification-verify">Verify</a>
+			</div>
+		</div>
+		
+		
+		
+		<!-- Certification Card for AI ML- Advanced Deep Learning and Computer Vision -->
+		<div class="certification-card">
+    		  <img src="C:\Users\bchai\Desktop\Web page\Home\7.jpg" alt="Simplilearn Logo" class="certification-logo">
+    			<div class="certification-details">
+        		<h3>Advanced Deep Learning and Computer Vision</h3>
+        		<p>Issued by Simplilearn - Jun 2021</p>
+        		<p>Skills: RBM, DBN, Variety Of Auto Encoders, Deep Generative Models, Neural Style Transfer.</p>
+        		<a href="https://certificates.simplicdn.net/share/thumb_2631386.png" target="_blank" class="certification-verify">Verify</a>
+			</div>
+		</div>
+		
+		
+		<!-- Certification Card for AI ML- Deep Learning with Tensorflow and Keras -->
+		<div class="certification-card">
+    		  <img src="C:\Users\bchai\Desktop\Web page\Home\7.jpg" alt="Simplilearn Logo" class="certification-logo">
+    			<div class="certification-details">
+        		<h3>Deep Learning with Tensorflow and Keras</h3>
+        		<p>Issued by Simplilearn - Apr 2021</p>
+        		
+        		<a href="https://certificates.simplicdn.net/share/thumb_2527965.png" target="_blank" class="certification-verify">Verify</a>
+			</div>
+		</div>
+	
+		
+		
+		<!-- Certification Card for Programmimg- Java -->
+		<div class="certification-card">
+    		  <img src="C:\Users\bchai\Desktop\Web page\Home\7.jpg" alt="Simplilearn Logo" class="certification-logo">
+    			<div class="certification-details">
+        		<h3>Programmimg- Java</h3>
+        		<p>Issued by Simplilearn - Apr 2021</p>
+        		<p>Skills: Skills: Hibernate Queries, Spring AOP, Spring JDBC, Spring MVC, SOA and Web services.</p>
+        		<a href="https://certificates.simplicdn.net/share/thumb_3933529.png" target="_blank" class="certification-verify">Verify</a>
+			</div>
+		</div>
+		
+		
+		
+		<!-- Certification Card for AI ML- Machine Learning -->
+		<div class="certification-card">
+    		  <img src="C:\Users\bchai\Desktop\Web page\Home\7.jpg" alt="Simplilearn Logo" class="certification-logo">
+    			<div class="certification-details">
+        		<h3>Machine Learning</h3>
+        		<p>Issued by Simplilearn - Mar 2021</p>
+        		<p>Skills: Time series Modelling, Ensemble Learning, Recommender Systems, Text Mining · Feature Engineering, Various ML Models, Hypertuning, pipeline, Metrics, Model persistence.</p>
+        		<a href="https://certificates.simplicdn.net/share/thumb_2458069.png" target="_blank" class="certification-verify">Verify</a>
+			</div>
+		</div>
+
+		
+		<!-- Certification Card for AI ML- Data Science With Python -->
+		<div class="certification-card">
+    		  <img src="C:\Users\bchai\Desktop\Web page\Home\7.jpg" alt="Simplilearn Logo" class="certification-logo">
+    			<div class="certification-details">
+        		<h3>Data Science With Python</h3>
+        		<p>Issued by Simplilearn - Jan 2021</p>
+        		<p>Skills: Numpy,Pandas,Scipy, Scikit, matplot, seaborn, BeautifulSoup, Selenium.</p>
+        		<a href="https://certificates.simplicdn.net/share/thumb_2380287.png" target="_blank" class="certification-verify">Verify</a>
+			</div>
+		</div>
+
+		
+		<!-- Certification Card for AI ML- Statistics Essential For Data Science -->
+		<div class="certification-card">
+    		  <img src="C:\Users\bchai\Desktop\Web page\Home\7.jpg" alt="Simplilearn Logo" class="certification-logo">
+    			<div class="certification-details">
+        		<h3>Statistics Essential For Data Science</h3>
+        		<p>Issued by Simplilearn - Nov 2020</p>
+        		<p>Skills: Data and Probability Distribution, Descriptive stats, Various Hypothesis Testing. </p>
+        		<a href="https://certificates.simplicdn.net/share/thumb_2294803.png" target="_blank" class="certification-verify">Verify</a>
+			</div>
+		</div>
+		
+		
+		<!-- Certification Card for AI ML- Python For Data Sciernce -->
+		<div class="certification-card">
+    		  <img src="C:\Users\bchai\Desktop\Web page\Home\7.jpg" alt="Simplilearn Logo" class="certification-logo">
+    			<div class="certification-details">
+        		<h3>Python For Data Sciernce</h3>
+        		<p>Issued by Simplilearn - Oct 2020</p>
+        		<p>Skills: Exception Handling, Decorators, Collections, Generators, Magic Methods, Threading. </p>
+        		<a href="https://certificates.simplicdn.net/share/thumb_2247886.png" target="_blank" class="certification-verify">Verify</a>
+			</div>
+		</div>
+
+		
+    </div>
+</div>
+
+            </div>
+        </section>
+    </main>
+    
+    <footer>
+        <!-- Footer content -->
+        <p>&copy; 2023 Chaitanya Kumar Battula</p>
+    </footer>
+</body>
+</html>
+}
